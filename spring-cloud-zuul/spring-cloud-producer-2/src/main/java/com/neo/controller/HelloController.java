@@ -19,6 +19,11 @@ public class HelloController {
         }catch ( Exception e){
             logger.error(" hello two error",e);
         }
+//        try {
+//            throw new Exception("323");
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
         return "hello "+name+"，this is two messge";
     }
 }
